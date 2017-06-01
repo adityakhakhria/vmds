@@ -1,0 +1,72 @@
+<!DOCTYPE html><html>
+<script type="text/javascript">
+
+if (document.layers) {
+
+    //Capture the MouseDown event.
+
+    document.captureEvents(Event.MOUSEDOWN);
+
+ 
+
+    //Disable the OnMouseDown event handler.
+
+    document.onmousedown = function () {
+
+        return false;
+
+    };
+
+}
+
+else {
+
+    //Disable the OnMouseUp event handler.
+
+    document.onmouseup = function (e) {
+
+        if (e != null && e.type == "mouseup") {
+
+            //Check the Mouse Button which is clicked.
+
+            if (e.which == 2 || e.which == 3) {
+
+                //If the Button is middle or right then disable.
+
+                return false;
+
+            }
+
+        }
+
+    };
+
+}
+
+ 
+
+//Disable the Context Menu event.
+
+document.oncontextmenu = function () {
+
+    return false;
+
+};
+
+</script>
+
+ 
+
+<script>
+    /*function check(e)
+    {
+    alert(e.keyCode);
+    }*/
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('no Mahn! Dont do it be creative');
+            }
+            return false;
+    };
+    </script>
+<head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="profile" href="http://gmpg.org/xfn/11"> <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"> <link href="font-awesome.min.css" rel="stylesheet"> <title>Courses</title> <style type="text/css"> img.wp-smiley, img.emoji{display: inline !important; border: none !important; box-shadow: none !important; height: 1em !important; width: 1em !important; margin: 0 .07em !important; vertical-align: -0.1em !important; background: none !important; padding: 0 !important;}</style> <link rel='stylesheet' id='VMDS-style-css' href='style.css' type='text/css' media='all'/> <script type='text/javascript' src='jquery.js'></script> <script type='text/javascript' src='jquery-migrate.min.js'></script> <link rel="stylesheet" href="nanoscroller.css"> <link rel="stylesheet" media="only screen and (min-width : 0px) and (max-width : 1200px)" href="mobile.css" type="text/css"/> </head> <body class="page-template-default page page-id-4602 group-blog"> <div id="chiusura"> <div class="uno"></div><div class="verticale"></div><div class="due"></div></div><div id="loader"> <svg id="square" width="200" height="200" viewBox="0 0 100 100"> <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> </svg> </div><div id="page" class="site"> <div id="banda"></div><div class="quadrato"> <a href="index.html" class="animated"><img id="logo" type="image/svg+xml" src="logob.png" alt="VMDS logo"/></a> </div><div class="quadrato"> <div id="menu" class="close"> <div> <span></span> <span></span> <span></span> </div></div></div><header id="masthead" class="site-header" role="banner"> </header> <nav id="finestra-menu"> <div id="menu-left"> <p class="indirizzo"> <span>NU 10/B</span><br>Plot No.A141 - Shaktinagar,<br>Near Cricket Ground, Opp. Garden<br>Gandhidham<br>Mob:-7600529961<br> New Address -> <a href="contact.html">Click Here<br></a>Designed by<u><a href="mailto:adkhakhs0412@gmail.com">&nbsp;Aditya Khakhria</a></u>&nbsp;/&nbsp;<u><a href="http://www.adityak.com">www.adityak.com</a></u> </p></div><div id="menu-right"> <ul> <li><a class="open-menu" href="index.html">Home</a></li><li><a class="open-menu" href="aboutus.html">About us</a></li><li><a class="open-menu" href="courses.html">Courses</a></li><li><a class="open-menu" href="schedule.html">Schedule</a></li><li><a class="open-menu" href="socialwall.html">Social Wall</a></li><li><a class="open-menu" href="contact.html">Contact us</a></li></ul> </div></nav> <div id="content" class="site-content"> <div id="primary" class="content-area"> <main id="main" class="site-main" role="main"> <div id="showroom"> <div class="titoloshow"> <div class="left"> <span class="linea"></span> <div id="titolointerno" class="titolo desktop"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit">Courses</div></div><div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit">2017</div></div></div><div id="titolointerno" class="titolo mobile"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit"></div></div></div></div><div class="right"> <div class="fiera"> <h5></h5> <p>Monday to Saturday - 10am to 9pm</p></div></div></div><div class="show showuno"> <div class="foto1"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="courses/v.png" alt="VMDS"> </div></div><div class="foto2"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="courses/m.png" alt="VMDS"> </div></div><div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><div class="titoletto"> <div class="nazione" rel=""></div><div class="titolointerno2" class="titolo"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><a href="https://www.youtube.com/watch?v=eSN8IjETVWk"><div class="tit">Urban Hip-Hop -</div></a></div><div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><a href="https://www.youtube.com/watch?v=OGIURrWMXcs"><div class="tit">Contemporary -</div></a></div></div><p>(Click On the Dance Form names To checkout more about it)<br>Hip-hop dance refers to street dance styles primarily performed to hip-hop music or that have evolved as part of hip-hop culture. It includes a wide range of styles primarily breaking, locking, and popping which were created in the 1970s </p><p> <p>Contemporary dance tends to combine the strong and controlled legwork of ballet with modern dance's stress on the torso, and also employs contract-release, floor work, fall and recovery, and improvisation characteristic of modern dance. </p><b>We also Teach - <a href="https://www.youtube.com/watch?v=9b_LqgN7tyA"><u>Dancehall</u></a> , <a href="https://www.youtube.com/watch?v=ST1lFVjk8n4"><u>Freestyle</u></a></p></div></div><div class="show showsecondario"> <div class="foto1"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="courses/d.png" alt="VMDS"> </div></div><div class="foto2"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="courses/s.png" alt="VMDS"> </div></div><div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><div class="titoletto"> <div class="nazione" rel=""></div><div class="titolointerno2" class="titolo"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><a href=""><div class="tit">BollyHop -</div></a></div><div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><a href="https://https://www.youtube.com/watch?v=F_2wdInLgSA"><div class="tit">Bollywood -</div></a></div></div><p>Bolly Hop is a fusion dance class that blends the urban and Western moves of Hip Hop dance with the Eastern influences of Bollywood movements. This fusion dance is sure to get your energy levels on a new high! </p><p> <p>Bollywood dance is the dance-form used in the Indian films. It is a mixture of numerous styles. These styles include belly-dancing, kathak, Indian folk, Western popular, and "modern", jazz, and even Western erotic dancing </p></p></div></div><div class="show showsecondario"><!-- <div class="foto1"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="/wp-content/uploads/2017/02/showroomatmosphere_1-1-1.jpg" alt="VMDS"> </div></div>--><!-- <div class="foto2"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="/wp-content/uploads/2017/02/showroomatmosphere_2-1-1.jpg" alt="VMDS"> </div></div>--><!-- <div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div>--><!-- <div class="titoletto"> <div class="nazione" rel=""></div><div class="titolointerno2" class="titolo"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit"></div></div><div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit">Other Dance Forms</div></div></div><p>Showroom Atmosphere<br/> ijzerenwaag 12<br/> 2000 Antwerpen </p><p> <p>tel: 0032-3 227 27 18<br/> fax: 0032-3 227 27 17 </p><p><a href="http://www.showroomatmosphere.com">www.showroomatmosphere.com</a><br/> <a href="mailto:philippe@showroomatmosphere.com">philippe@showroomatmosphere.com</a> </p></p></div>--> <div id="altri"> <span>Mail</span> <a href="mailto:vmdspro@gmail.com" class="frecciasocial"> <img type="image/svg+xml" src="right.svg" alt="VMDS logo"/> <span class="fhover"></span> </a> </div></div></div></main> </div></div><div id="copyright" class="desktop"><span><a href="http://www.adityak.com/">All right reserved Aditya 'Sturdy Technology'</span></a></div><div id="follow"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><footer id="colophon" class="site-footer" role="contentinfo"> <div id="copyright" class="mobile"><span>All right reserved Aditya Khakhria</span></div><div id="follow" class="mobile"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><div id="credits">Credits <a href="http://www.adityak.com/" target="_blank">Aditya Khakhria</a></div></footer> </div><script type='text/javascript' src='bostrom.js'></script> <script type='text/javascript' src='script.js'></script> <script type='text/javascript' src='wp-embed.js'></script> </body></html>

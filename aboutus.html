@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<script type="text/javascript">
+
+if (document.layers) {
+
+    //Capture the MouseDown event.
+
+    document.captureEvents(Event.MOUSEDOWN);
+
+ 
+
+    //Disable the OnMouseDown event handler.
+
+    document.onmousedown = function () {
+
+        return false;
+
+    };
+
+}
+
+else {
+
+    //Disable the OnMouseUp event handler.
+
+    document.onmouseup = function (e) {
+
+        if (e != null && e.type == "mouseup") {
+
+            //Check the Mouse Button which is clicked.
+
+            if (e.which == 2 || e.which == 3) {
+
+                //If the Button is middle or right then disable.
+
+                return false;
+
+            }
+
+        }
+
+    };
+
+}
+
+ 
+
+//Disable the Context Menu event.
+
+document.oncontextmenu = function () {
+
+    return false;
+
+};
+
+</script>
+
+ 
+
+<script>
+    /*function check(e)
+    {
+    alert(e.keyCode);
+    }*/
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('no Mahn! Dont do it be creative');
+            }
+            return false;
+    };
+    </script>
+<head><meta lang="en"><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link href="font-awesome.min.css" rel="stylesheet"><title>Aboutus</title><style type="text/css">img.wp-smiley,img.emoji{display: inline !important;border: none !important;box-shadow: none !important;height: 1em !important;width: 1em !important;margin: 0 .07em !important;vertical-align: -0.1em !important;background: none !important;padding: 0 !important;}</style><link rel='stylesheet' href='style.css' type='text/css' media='all'/><script type='text/javascript' src='jquery.js'></script><script type='text/javascript' src='jquery-migrate.min.js'></script><link rel="stylesheet" href="nanoscroller.css"><link rel="stylesheet" href="mobile.css" type="text/css"/></head><body class="page-template-default page page-id-4597 group-blog"> <div id="chiusura"> <div class="uno"></div><div class="verticale"></div><div class="due"></div></div><div id="loader"> <svg id="square" width="200" height="200" viewBox="0 0 100 100"> <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> </svg> </div><div id="page" class="site"> <div id="banda"></div><div class="quadrato"> <a href="http://www.vmds.org" class="animated"><img id="logo" type="image/svg+xml" src="logob.png" alt="VMDS logo"/></a> </div><div class="quadrato"> <div id="menu" class="close"> <div> <span></span> <span></span> <span></span> </div></div></div><header id="masthead" class="site-header" role="banner"> </header> <nav id="finestra-menu"> <div id="menu-left"> <p class="indirizzo"> <span>NU 10/B</span><br>Plot No.A141 - Shaktinagar,<br>Near Cricket Ground, Opp. Garden<br>Gandhidham<br>Mob:-7600529961<br> New Address -> <a href="contact.html">Click Here<br></a>Designed by<u><a href="mailto:adkhakhs0412@gmail.com">&nbsp;Aditya Khakhria</a></u>&nbsp;/&nbsp;<u><a href="http://www.adityak.com">www.adityak.com</a></u> </p></div><div id="menu-right"> <ul> <li><a class="open-menu" href="index.html">Home</a></li><li><a class="open-menu" href="aboutus.html">About us</a></li><li><a class="open-menu" href="courses.html">Courses</a></li><li><a class="open-menu" href="schedule.html">Schedule</a></li><li><a class="open-menu" href="socialwall.html">Social Wall</a></li><li><a class="open-menu" href="contact.html">Contact us</a></li></ul> </div></nav><div id="content" class="site-content"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"> <div id="brandinterno"> <div class="titolobrand"> <div class="left"> <span class="linea"></span> <div id="titolointerno" class="titolo"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit">About us</div></div></div></div><div class="right"> <div class="fiera"> <p><strong>V-Maniac'X'</strong>Dance studio // We Create</p></div></div></div><div class="row rowuno"> <h5>Since 2005</h5> <div class="testo"> <p>The <b>V-Maniac'X'</b> is a dance education institution committed to providing youth the opportunity to develop artistically, socially, emotionally and intellectually through dance. VMDS operates a studio school, outreach, youth ensemble and professional company, granting youth from diverse backgrounds the chance to experience the performing arts and develop important skills.</p><p><b>Vijay Bhakta</b> founded the V-Maniac'X' Dance Institute in 2005 during his summer break. He wished to give Indian youth the opportunities to develop talent, confidence and discipline. </p></div><div class="foto1"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/1.JPG" alt="VMDS"> </div></div><div class="foto2"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/2.JPG" alt="VMDS"> </div></div><div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><div class="testo2"> <h3 rel="Vijay Bhakta"></h3> <b><p>FOUNDER/CEO/ARTIST</p></b> <b><p>Know me -</p></b><p>-&nbsp;18 months of training(Performing Scholarship Program) from Terence Lewis Contemporary Dance Company TLCDC(Mumbai)</p><p>Attended Dancing workshops by -</br>-&nbsp;URBAN DANCE CAMP. Asia ( Mumbai Cidco )2016</br>-&nbsp;Brain Puspos (International Dancing ledgend , Delhi Big Dance Center)</br>-&nbsp;Jahnavi Sheriff(Dancehall Choreographer , Mumbai) and many more.</p></div></div><div class="row rowuno"> <h5>Since 2005</h5> <div class="testo"> <b><p>More About me</p></b><p>-&nbsp;Performed Reality Dance shows like Nach Baliye season 6,Season 7 Grand Finale Shake it to make it Contest - Award Winner, Zee TV 20 years Celebration, Master Chef. </p><p>-&nbsp;With an experience and exposer for 10 years in the field of Dance. Done many national and international shows with TLCDC(Terence Lewis Contemporary Dance Company) and other Organisations. <b>Currently Training more then 80 people.</b></p></div><div class="foto1"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/v.JPG" alt="VMDS"> </div></div><div class="foto2"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/v2.JPG" alt="VMDS"> </div></div><div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><br><div class="testo2"><h3 rel="Ashisha Bhanushali"></h3> <b><p>CORE COMPANY MEMBER/TRAINER</p></b> <b><p>Know me -</p></b><p>-&nbsp;Certified course D.P.L.C(Dance pe lo chance) from Master Terence Lewis Contemporary Dance Company TLCDC(Mumbai)</p><p>Attended Dancing workshops by </br>-&nbsp;URBAN DANCE CAMP. Asia ( Mumbai Cidco )2016</br>-&nbsp;Brain Pospus (International Dancing ledgend , Delhi Big Dance Center)</br>-&nbsp;Jahnavi Sheriff(Dancehall Choreographer , Mumbai) and many more.</p></div></div><div class="row rowuno"> <h5>Since 2005</h5> <div class="testo"> <b><p>More About me</p></b><p>-&nbsp;Had done choreography for many concerts, colleges and corporate functions.  </p>-&nbsp;Contract basis choreography<p>-&nbsp;With an experience and exposer for 4 years in the field of Dance.</p><p>-&nbsp;Currently Training more then 80 people.</p></div><div class="foto1"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/v3.JPG" alt="VMDS"> </div></div><div class="foto2"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/v4.JPG" alt="VMDS"> </div></div><div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><div class="testo2"> <!-- <h3 rel=""></h3> <b><p>INSTRUCTOR</p></b> <b><p>Know me -</p></b><p> An elegant professional dancer with great sense of rhythm and feel for music.</p><p>Having good health and stamina is a great addition to my skills as well as the ability to work well in a team with other people.</p></div></div> --><!-- <div class="row rowsecondario"> <div class="bordo3">  --><span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><div class="foto3"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="finalaboutus/k.JPG" alt="VMDS"> </div></div><div id="logovmds"> <img type="image/svg+xml" src="finalaboutus/kanishkb.JPG" alt="VMDS logo"/> </div><div class="testo2"> </div></div></div></main></div></div><div id="copyright" class="desktop"><span><a href="http://www.adityak.com/">All right reserved Aditya 'Sturdy Technology'</span></a></div><div id="follow"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><footer id="colophon" class="site-footer" role="contentinfo"> <div id="copyright" class="mobile"><span>All right reserved Aditya Khakhria</span></div><div id="follow" class="mobile"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><div id="credits">Credits <a href="http://www.adityak.com/" target="_blank">Aditya Khakhria</a></div></footer></div><script type='text/javascript' src='bostrom.js'></script><script type='text/javascript' src='script.js'></script><script type='text/javascript' src='wp-embed.js'></script></body></html>

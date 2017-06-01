@@ -1,0 +1,72 @@
+<!DOCTYPE html><html>
+<script type="text/javascript">
+
+if (document.layers) {
+
+    //Capture the MouseDown event.
+
+    document.captureEvents(Event.MOUSEDOWN);
+
+ 
+
+    //Disable the OnMouseDown event handler.
+
+    document.onmousedown = function () {
+
+        return false;
+
+    };
+
+}
+
+else {
+
+    //Disable the OnMouseUp event handler.
+
+    document.onmouseup = function (e) {
+
+        if (e != null && e.type == "mouseup") {
+
+            //Check the Mouse Button which is clicked.
+
+            if (e.which == 2 || e.which == 3) {
+
+                //If the Button is middle or right then disable.
+
+                return false;
+
+            }
+
+        }
+
+    };
+
+}
+
+ 
+
+//Disable the Context Menu event.
+
+document.oncontextmenu = function () {
+
+    return false;
+
+};
+
+</script>
+
+ 
+
+<script>
+    /*function check(e)
+    {
+    alert(e.keyCode);
+    }*/
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('no Mahn! Dont do it be creative');
+            }
+            return false;
+    };
+    </script>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"><link href="font-awesome.min.css" rel="stylesheet"><title>Contact us</title><style type="text/css">img.wp-smiley,img.emoji{display: inline !important;border: none !important;box-shadow: none !important;height: 1em !important;width: 1em !important;margin: 0 .07em !important;vertical-align: -0.1em !important;background: none !important;padding: 0 !important;}</style><link rel='stylesheet' href='style.css' type='text/css' media='all'/><script type='text/javascript' src='jquery.js'></script><script type='text/javascript' src='jquery-migrate.min.js'></script><script type="text/javascript">(function(url){if(/(?:Chrome\/26\.0\.1410\.63 Safari\/537\.31|WordfenceTestMonBot)/.test(navigator.userAgent)){return;}var addEvent=function(evt, handler){if (window.addEventListener){document.addEventListener(evt, handler, false);}else if (window.attachEvent){document.attachEvent('on' + evt, handler);}};var removeEvent=function(evt, handler){if (window.removeEventListener){document.removeEventListener(evt, handler, false);}else if (window.detachEvent){document.detachEvent('on' + evt, handler);}};var evts='contextmenu dblclick drag dragend dragenter dragleave dragover dragstart drop keydown keypress keyup mousedown mousemove mouseout mouseover mouseup mousewheel scroll'.split(' ');var logHuman=function(){var wfscr=document.createElement('script');wfscr.type='text/javascript';wfscr.async=true;wfscr.src=url + '&r=' + Math.random();(document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(wfscr);for (var i=0; i < evts.length; i++){removeEvent(evts[i], logHuman);}};for (var i=0; i < evts.length; i++){addEvent(evts[i], logHuman);}})('//www.vmds.org/');</script><link rel="pingback" href="http://www.vmds.org/xmlrpc.php"><link rel="stylesheet" href="nanoscroller.css"><link rel="stylesheet" media="only screen and (min-width : 0px) and (max-width : 1200px)" href="mobile.css" type="text/css"/></head><body class="page-template-default page page-id-3594 group-blog"> <div id="chiusura"> <div class="uno"></div><div class="verticale"></div><div class="due"></div></div><div id="loader"> <svg id="square" width="200" height="200" viewBox="0 0 100 100"> <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> </svg> </div><div id="page" class="site"> <div id="banda"></div><div class="quadrato"> <a href="http://www.vmds.org" class="animated"><img id="logo" type="image/svg+xml" src="logob.png" alt="VMDS logo"/></a> </div><div class="quadrato"> <div id="menu" class="close"> <div> <span></span> <span></span> <span></span> </div></div></div><header id="masthead" class="site-header" role="banner"> </header> <nav id="finestra-menu"> <div id="menu-left"> <p class="indirizzo"> <span>NU 10/B</span><br>Plot No.A141 - Shaktinagar,<br>Near Cricket Ground, Opp. Garden<br>Gandhidham<br>Mob:-7600529961<br> New Address -> <a href="contact.html">Click Here<br></a>Designed by<u><a href="mailto:adkhakhs0412@gmail.com">&nbsp;Aditya Khakhria</a></u>&nbsp;/&nbsp;<u><a href="http://www.adityak.com">www.adityak.com</a></u> </p></div><div id="menu-right"> <ul> <li><a class="open-menu" href="index.html">Home</a></li><li><a class="open-menu" href="aboutus.html">About us</a></li><li><a class="open-menu" href="courses.html">Courses</a></li><li><a class="open-menu" href="schedule.html">Schedule</a></li><li><a class="open-menu" href="socialwall.html">Social Wall</a></li><li><a class="open-menu" href="contact.html">Contact Us</a></li></ul> </div></nav><div id="content" class="site-content"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"> <div id="contact"> <div class="centrato"> <span class="linea"></span> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit">Contact Us</div></div><p><span>NU 10/B</span><br>Plot No.A141 - Shaktinagar,<br>Near Cricket Ground, Opp. Garden<br>Gandhidham<br></p><b><p><span><u>New Address</u> -</span></b><span></span><br>Plot No.814,Ward 11/B, 2nd Floor<br>Above Anjali The Supermarket<br>Bharatnagar,Gandhidham<br></p><hr> <p>Call us - <a href="7600529961">7600529961 / </a><a href="7878678883">7878678883</a> <br><br><u><a href="mailto:vmdspro@gmail.com">vmdspro@gmail.com</a></p></u> <hr> <p>Feel free to Drop a line . We assure to transform you into one blizfully happy Dancer</p></div></div><div id="mappa"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> <div id="map"></div></div><script>function initMap(){var myLatLng={lat: 23.0686502, lng: 70.1266202}; var map=new google.maps.Map(document.getElementById('map'),{zoom: 16, center: myLatLng, styles: [{"featureType":"water","elementType":"geometry","stylers":[{"color":"#e9e9e9"},{"lightness":17}]},{"featureType":"landscape","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":20}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#ffffff"},{"lightness":17}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#ffffff"},{"lightness":29},{"weight":0.2}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":18}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#ffffff"},{"lightness":16}]},{"featureType":"poi","elementType":"geometry","stylers":[{"color":"#f5f5f5"},{"lightness":21}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"color":"#dedede"},{"lightness":21}]},{"elementType":"labels.text.stroke","stylers":[{"visibility":"on"},{"color":"#ffffff"},{"lightness":16}]},{"elementType":"labels.text.fill","stylers":[{"saturation":36},{"color":"#333333"},{"lightness":40}]},{"elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"transit","elementType":"geometry","stylers":[{"color":"#f2f2f2"},{"lightness":19}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#fefefe"},{"lightness":20}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"color":"#fefefe"},{"lightness":17},{"weight":1.2}]}]}); var image="pin.png"; var marker=new google.maps.Marker({position: myLatLng, map: map, icon: image});}</script></main></div><script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDlBO_OWjhlYyTsOrTa43n38OwFV-P-0dg&callback=initMap"></script></div><div id="copyright" class="desktop"><span><a href="http://www.adityak.com/">All right reserved Aditya 'Sturdy Technology'</span></a></div><div id="follow"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><footer id="colophon" class="site-footer" role="contentinfo"> <div id="copyright" class="mobile"><span>All right reserved Aditya Khakhria</span></div><div id="follow" class="mobile"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><div id="credits">Credits <a href="http://www.adityak.com/" target="_blank">Aditya Khakhria</a></div></footer></div><script type='text/javascript' src='bostrom.js'></script><script type='text/javascript' src='script.js'></script><script type='text/javascript' src='wp-embed.js'></script></body></html>

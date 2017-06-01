@@ -1,0 +1,72 @@
+<!DOCTYPE html><html>
+<script type="text/javascript">
+
+if (document.layers) {
+
+    //Capture the MouseDown event.
+
+    document.captureEvents(Event.MOUSEDOWN);
+
+ 
+
+    //Disable the OnMouseDown event handler.
+
+    document.onmousedown = function () {
+
+        return false;
+
+    };
+
+}
+
+else {
+
+    //Disable the OnMouseUp event handler.
+
+    document.onmouseup = function (e) {
+
+        if (e != null && e.type == "mouseup") {
+
+            //Check the Mouse Button which is clicked.
+
+            if (e.which == 2 || e.which == 3) {
+
+                //If the Button is middle or right then disable.
+
+                return false;
+
+            }
+
+        }
+
+    };
+
+}
+
+ 
+
+//Disable the Context Menu event.
+
+document.oncontextmenu = function () {
+
+    return false;
+
+};
+
+</script>
+
+ 
+
+<script>
+    /*function check(e)
+    {
+    alert(e.keyCode);
+    }*/
+    document.onkeydown = function(e) {
+            if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {//Alt+c, Alt+v will also be disabled sadly.
+                alert('no Mahn! Dont do it be creative');
+            }
+            return false;
+    };
+    </script>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="profile" href="http://gmpg.org/xfn/11"><link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700" rel="stylesheet"><link href="font-awesome.min.css" rel="stylesheet"><title>Schedule</title><style type="text/css">img.wp-smiley,img.emoji{display: inline !important;border: none !important;box-shadow: none !important;height: 1em !important;width: 1em !important;margin: 0 .07em !important;vertical-align: -0.1em !important;background: none !important;padding: 0 !important;}</style><link rel='stylesheet' id='maelo-style-css' href='style.css' type='text/css' media='all'/><script type='text/javascript' src='jquery.js'></script><script type='text/javascript' src='jquery-migrate.min.js'></script><link rel="stylesheet" href="nanoscroller.css"><link rel="stylesheet" media="only screen and (min-width : 0px) and (max-width : 1200px)" href="mobile.css" type="text/css"/></head><body class="page-template-default page page-id-4597 group-blog"> <div id="chiusura"> <div class="uno"></div><div class="verticale"></div><div class="due"></div></div><div id="loader"> <svg id="square" width="200" height="200" viewBox="0 0 100 100"> <polyline class="line-cornered stroke-still" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-still" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 100,0 100,100" stroke-width="10" fill="none"></polyline> <polyline class="line-cornered stroke-animation" points="0,0 0,100 100,100" stroke-width="10" fill="none"></polyline> </svg> </div><div id="page" class="site"> <div id="banda"></div><div class="quadrato"> <a href="http://www.vmds.org" class="animated"><img id="logo" type="image/svg+xml" src="logob.png" alt="VMDS logo"/></a> </div><div class="quadrato"> <div id="menu" class="close"> <div> <span></span> <span></span> <span></span> </div></div></div><header id="masthead" class="site-header" role="banner"> </header> <nav id="finestra-menu"> <div id="menu-left"> <p class="indirizzo"> <span>NU 10/B</span><br>Plot No.A141 - Shaktinagar,<br>Near Cricket Ground, Opp. Garden<br>Gandhidham<br>Mob:-7600529961<br> New Address -> <a href="contact.html">Click Here<br></a>Designed by<u><a href="mailto:adkhakhs0412@gmail.com">&nbsp;Aditya Khakhria</a></u>&nbsp;/&nbsp;<u><a href="http://www.adityak.com">www.adityak.com</a></u> </p></div><div id="menu-right"> <ul> <li><a class="open-menu" href="index.html">Home</a></li><li><a class="open-menu" href="aboutus.html">About us</a></li><li><a class="open-menu" href="courses.html">Courses</a></li><li><a class="open-menu" href="schedule.html">Schedule</a></li><li><a class="open-menu" href="socialwall.html">Social Wall</a></li><li><a class="open-menu" href="contact.html">Contact us</a></li></ul> </div></nav><div id="content" class="site-content"><div id="primary" class="content-area"><main id="main" class="site-main" role="main"> <div id="brandinterno"> <div class="titolobrand"> <div class="left"> <span class="linea"></span> <div id="titolointerno" class="titolo"> <div class="titoli-home"> <div class="nero"></div><div class="bianco"></div><div class="tit">Schedule & More</div></div></div></div><div class="right"> <div class="fiera"> <p><strong>V-Maniac'X'</strong>Dance studio // We Create</p></div></div></div><div class="row rowuno"> <h1>To follow - </h1> <div class="testo"> <strong>VMDS Hours:</strong><br/> <b><p>Monday - Friday :-</b> <br>5pm to 6pm Contemporary PTSP<br>6pm to 7pm for Adults<br>7pm to 8pm for Kids & Urban Hip Hop<br>8pm to 9pm for Teenagers. </p><p><strong>Attendance :</strong><br/> Attendance is Crucial in the Progress of the class and the dancer. Dancers are allowed to miss no more than 3 classes per semester for any reason. Anyone missing more than this amount will be subject to dismissal from class.</p><p><strong>Expulsion :</strong><br/> Vmds reserves right to ask a student/family to leave the studio for failure to follow studio policies, or for any reason they see fit.</p><p><strong>Fees Structure :</strong><br/> 1200rs and 100rs Registration charge. </p><p><strong>Most important :</strong><br/> make sure your younger child/you use the restroom before class.There is no gum/food or drink allowed in the studios at any time.No Street shoes allowed on the dance floor.No Smoking on the premises.All Student are Requested to act in a Respectful manner at all time. </p></div><div class="testo2"><!-- <h3 rel="Made in Italy"></h3> <p>L’azienda si trova a nelle Marche, a Casette d’Ete, cuore pulsante del più importante distretto calzaturiero italiano.</p><p>La sede che si estende su una superficie di 1200 metri ospita gli uffici stile, l’amministrazione e l’intera produzione. Il ciclo produttivo è infatti realizzato completamente all’interno, secondo specifici criteri di qualità del Made in Italy.</p>--> </div></div><div class="row rowsecondario"> <div class="bordo3"> <span class="bordo-top"></span> <span class="bordo-right"></span> <span class="bordo-bottom"></span> <span class="bordo-left"></span> </div><div class="foto3"> <div class="nero"></div><div class="bianco"> <div class="sfoglia1"></div><div class="sfoglia2"></div><img src="schedule.jpg" alt=""> </div></div><div id="logomaelo"> <img type="image/svg+xml" src="" alt=""/> </div><div class="testo2"> <u><p><b>V-Maniac'X'</b></p></u> <p>Whether you are a looking for a new hobby or take your skills to the next level, VMDS unique approach to personalized dance instruction ensures that your needs and desires are met every step of the way.<br>It’s not just about learning to dance, it’s about feeling healthier and happier, while expressing yourself and being part of an incredible community.</p></div></div></div></main></div></div><div id="copyright" class="desktop"><span><a href="http://www.adityak.com/">All right reserved Aditya 'Sturdy Technology'</span></a></div><div id="follow"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><footer id="colophon" class="site-footer" role="contentinfo"> <div id="copyright" class="mobile"><span>All right reserved Aditya Khakhria</span></div><div id="follow" class="mobile"><a href="http://www.adityak.com/" target="_blank"><span>www.adityak.com</span></a></div><div id="credits">Credits <a href="http://www.adityak.com/" target="_blank">Aditya Khakhria</a></div></footer></div><script type='text/javascript' src='bostrom.js?ver=20151215'></script><script type='text/javascript' src='script.js?ver=20151215'></script><script type='text/javascript' src='wp-embed.min.js'></script></body></html>
